@@ -62,13 +62,20 @@ function userInputs(){
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { 
+    fs.writeFile(fileName,data,err => {
+        if (err) {
+            throw err;}
+        console.log('Your file has been created successfully!');
+    });
 
-}
+};
 
 // TODO: Create a function to initialize app
 function init() {
-}
+    console.log('Welcome');
+    userInputs();
+    writeToFile('./README.md', data);
+};
 
 // Function call to initialize app
 init();
-userInputs();
