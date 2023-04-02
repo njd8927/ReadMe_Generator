@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const markdown = require('./utils/generateMarkdown.js');
+const markdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 function userInputs(){
@@ -15,7 +15,7 @@ function userInputs(){
         message: 'Please enter a description of your project.',
     },
     {
-        name: 'table of contents',
+        name: 'contents',
         message: 'Please enter a table of contents to make it easy for the user to find what they need.',
     },
     {
@@ -33,14 +33,13 @@ function userInputs(){
         choices: [
             'Apache',
             'GNU', 
-            'MIT',
-            'BSD2', 
-            'BSD3', 
+            'MIT', 
+            'Mozilla',
         ],
        
     },
     {
-        name: 'conributions',
+        name: 'contributions',
         message: 'Please enter instructions on how other developers can contribute to your project.',
     },
     {
