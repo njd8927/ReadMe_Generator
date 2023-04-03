@@ -1,9 +1,11 @@
 // TODO: Include packages needed for this application
+
 const fs = require('fs');
 const inquirer = require('inquirer');
 const markdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
+
 function userInputs(){
     inquirer.prompt([
     {
@@ -35,8 +37,7 @@ function userInputs(){
             'GNU', 
             'MIT', 
             'Mozilla',
-        ],
-       
+        ], 
     },
     {
         name: 'contributions',
@@ -54,13 +55,17 @@ function userInputs(){
         name: 'email',
         message: 'What is your email address?'
     },
+
 ]).then((answersObj) => {
     console.log(answersObj);
+    const data = markdown(answersObj)
+    writeToFile('README.md', data);
 
 })};
 
 
 // TODO: Create a function to write README file
+
 function writeToFile(fileName, data) { 
     fs.writeFile(fileName,data,err => {
         if (err)
@@ -72,11 +77,13 @@ function writeToFile(fileName, data) {
 };
 
 // TODO: Create a function to initialize app
+
 function init() {
     console.log('Welcome');
     userInputs();
 };
 
 // Function call to initialize app
+
 init();
-// writeToFile('./README.md', data);
+

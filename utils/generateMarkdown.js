@@ -35,16 +35,16 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license === 'Apache') {
     return `### License
-    This project is licensed under the Apache License`;
+This project is licensed under the Apache License`;
   } else if (license === 'GNU'){
     return `### License
-    This project is licensed under the GNU License`;
+This project is licensed under the GNU License`;
   } else if (license === 'MIT'){
     return `### License
-    This project is licensed under the MIT License`;
+This project is licensed under the MIT License`;
   } else if (license === 'Mozilla') {
     return `### License
-    This project is licensed under the Mozilla License`;
+This project is licensed under the Mozilla License`;
   } else {
     return "";
   }
@@ -52,13 +52,12 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-  # ${data.title};
+  return `# ${data.title};
   ## ${data.description};
   ## ${data.contents};
   ## ${data.installation};
   ## ${data.usage};
-  ### ${data.license};
+  ${renderLicenseSection(data.license)};
   ### ${data.contributions};
   ### ${data.tests};
   ### Questions;
