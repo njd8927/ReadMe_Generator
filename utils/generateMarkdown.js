@@ -53,7 +53,7 @@ This project is licensed under the Mozilla License`;
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)} ${renderLicenseLink(data.license)}
 ## Description
 ## ${data.description}
 ## Contents
