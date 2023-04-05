@@ -1,20 +1,21 @@
-# nicks readme
+# ReadMe_Generator
 ### License
 This project is licensed under the MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 https://opensource.org/licenses/MIT
 ## Description
-## readme
+## My project is intended to provide the user with a professional README generator to use for their own projects' README
 ## Contents
-## install usage license
+## Installation Usage License
 ## Installation
-## install
+## To install, please see my github repository: github.com/njd8927/ReadMe_Generator
 ## Usage
-## install
+## type node index.js in command line and answer the prompts to have your readme generated
 ## Contributions
-## github
+## please see my github repository: github.com/njd8927/ReadMe_Generator
 ## Tests
-## jest
+## Jest
 ## Questions
-GitHub Repo: nj8927
-Email: njd8927@gmail.com
+GitHub: github.com/njd8927
+
+Email: nicholasz8687@gmail.com
