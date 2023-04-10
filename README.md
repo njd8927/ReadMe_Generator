@@ -8,17 +8,15 @@ https://opensource.org/licenses/MIT
 
 ### 1. [Description](#description)
 
-### 2. Installation 
+### 2. [Installation](#installation) 
 
-### 3. Usage 
+### 3. [Usage](#usage)
 
-### 4. License
+### 4. [Contributions](#contributions)
 
-### 5. Contributions
+### 5. [Tests](#tests)
 
-### 6. Tests
-
-### 7. Questions
+### 6. [Questions](#questions)
 
 ## Description
 ### This project is intended to provide the user with a professional README generator to use for their own projects' README file.
@@ -30,7 +28,7 @@ https://opensource.org/licenses/MIT
 ### To initialize application, type node index.js in command line and answer the prompts to have your README file generated.
 
 ## Contributions
-### This project was developed with assistance from JD Tadlock, Armando Osario, stackoverflow.com and MDN Web Docs.
+### This project was developed with assistance from JD Tadlock, Armando Osario, Andres Long, https://www.stackoverflow.com and MDN Web Docs.
 ### To contribute to this project please see my github repository: https://www.github.com/njd8927/ReadMe_Generator
 
 ## Tests
