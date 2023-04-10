@@ -4,11 +4,22 @@ This project is licensed under the MIT License [![License: MIT](https://img.shie
 
 https://opensource.org/licenses/MIT
 
+## Table of Contents
+
+### 1. Installation 
+
+### 2. Usage 
+
+### 3. License
+
+### 4. Contributions
+
+### 5. Tests
+
+### 6. Questions
+
 ## Description
 ### This project is intended to provide the user with a professional README generator to use for their own projects' README file.
-
-## Contents (Optional)
-### Installation Usage License
 
 ## Installation
 ### For installation instructions, please see the project github repository: github.com/njd8927/ReadMe_Generator
@@ -28,3 +39,5 @@ https://opensource.org/licenses/MIT
 GitHub: github.com/njd8927
 
 Email: nicholasz8687@gmail.com
+
+Link to Walkthrough Video: https://drive.google.com/file/d/1OOAGHYociZB17rdAnu0Hwno-diWydZl0/view
