@@ -6,17 +6,19 @@ https://opensource.org/licenses/MIT
 
 ## Table of Contents
 
-### 1. Installation 
+### 1. Description
 
-### 2. Usage 
+### 2. Installation 
 
-### 3. License
+### 3. Usage 
 
-### 4. Contributions
+### 4. License
 
-### 5. Tests
+### 5. Contributions
 
-### 6. Questions
+### 6. Tests
+
+### 7. Questions
 
 ## Description
 ### This project is intended to provide the user with a professional README generator to use for their own projects' README file.
