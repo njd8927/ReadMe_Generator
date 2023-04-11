@@ -1,5 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// function that returns a license badge based on which license is chosen by the user. Empty string if no license chosen
+
 function renderLicenseBadge(license) {
   if (license === 'Apache') {
 return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
@@ -14,8 +14,8 @@ return "";
   }
 };
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// function that returns the license link for the user chosen license. Empty string if no license chosen
+
 function renderLicenseLink(license) {
   if (license === 'Apache') {
 return 'https://opensource.org/licenses/Apache-2.0';
@@ -30,8 +30,8 @@ return "";
   }
 };
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// function that returns the license section of README. Empty string if no license chosen
+
 function renderLicenseSection(license) {
   if (license === 'Apache') {
     return `### License
@@ -50,7 +50,7 @@ This project is licensed under the Mozilla License`;
   }
 };
 
-// TODO: Create a function to generate markdown for README
+// function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)} ${renderLicenseLink(data.license)}
@@ -72,4 +72,5 @@ Email: ${data.email}
 `;
 };
 
+// export this file to index.js
 module.exports = generateMarkdown;
